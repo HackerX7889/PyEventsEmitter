@@ -1,7 +1,7 @@
 # abortListener Method
 
 ```py
-from PyEventEmitter import EventEmitter, AbortSignal
+from PyEventsEmitter import EventEmitter, AbortSignal
 
 emitter = EventEmitter()
 

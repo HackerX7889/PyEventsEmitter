@@ -1,7 +1,7 @@
 # event_names Method
 
 ```py
-from PyEventEmitter import EventEmitter
+from PyEventsEmitter import EventEmitter
 
 emitter = EventEmitter()
 

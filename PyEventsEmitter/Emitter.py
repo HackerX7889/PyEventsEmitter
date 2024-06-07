@@ -1,5 +1,5 @@
 from typing import Any, Callable, List, Optional, Dict
-from utils import DEFAULT_LISTNER_COUNT, AbortSignal, Disposable
+from .utils import DEFAULT_LISTNER_COUNT, AbortSignal, Disposable
 
 class EventEmitter:
     def __init__(self, options: Optional[Dict[str, Any]] | None) -> None:

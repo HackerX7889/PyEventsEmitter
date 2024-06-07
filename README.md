@@ -3,7 +3,13 @@
 ### Overview
 ------------
 
-The Event Emitter (PyEventEmitter) is a powerful tool for managing event listeners and emitting events in your application. It provides a range of methods for adding, removing, and checking listeners, as well as emitting events with arguments.
+The Event Emitter (PyEventsEmitter) is a powerful tool for managing event listeners and emitting events in your application. It provides a range of methods for adding, removing, and checking listeners, as well as emitting events with arguments.
+
+## Installation
+
+```sh
+pip install PyEventsEmitter
+```
 
 ### Initialization
 -----------------

@@ -1,7 +1,7 @@
 # Once Method Usage
 
 ```py
-from PyEventEmitter import EventEmitter
+from PyEventsEmitter import EventEmitter
 
 emitter = EventEmitter({ 'captureRejections': True })
 

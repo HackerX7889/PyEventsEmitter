@@ -1,7 +1,7 @@
 # get_max_listeners Method
 
 ```py
-from PyEventEmitter import EventEmitter
+from PyEventsEmitter import EventEmitter
 
 emitter = EventEmitter()
 
@@ -17,7 +17,7 @@ import random
 def random_int():
     return random.randint(20, 50)
 
-from PyEventEmitter import EventEmitter
+from PyEventsEmitter import EventEmitter
 
 emitter = EventEmitter()
 

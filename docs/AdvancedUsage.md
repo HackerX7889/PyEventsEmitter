@@ -17,8 +17,8 @@ class Data(NamedTuple):
     male: bool
     grade: Grades
 
-# Import the PyEventEmitter class
-from PyEventEmitter import EventEmitter
+# Import the PyEventsEmitter class
+from PyEventsEmitter import EventEmitter
 
 # Create an instance of the EventEmitter class
 emitter = EventEmitter({'captureRejections': True})
