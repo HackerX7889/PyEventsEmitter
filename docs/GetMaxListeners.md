@@ -3,7 +3,7 @@
 ```py
 from PyEventsEmitter import EventEmitter
 
-emitter = EventEmitter()
+emitter = EventEmitter({ "captureRejections": True })
 
 emitter.set_max_listeners(93)
 print(emitter.get_max_listeners())
@@ -19,7 +19,7 @@ def random_int():
 
 from PyEventsEmitter import EventEmitter
 
-emitter = EventEmitter()
+emitter = EventEmitter({ "captureRejections": True })
 
 emitter.set_max_listeners(random_int())
 print(emitter.get_max_listeners())

@@ -3,7 +3,7 @@
 ```py
 from PyEventsEmitter import EventEmitter, AbortSignal
 
-emitter = EventEmitter()
+emitter = EventEmitter({ "captureRejections": True })
 
 emitter.addAbortListener(AbortSignal(), lambda x: print(x))
 ```

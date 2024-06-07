@@ -1,6 +1,8 @@
 __pycache__/
 backups/
-task.txt
+*.txt
 tree.py
 directory_structure.kt
 others/
+dist/
+PyEventsEmitter.egg-info

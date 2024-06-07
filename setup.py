@@ -7,10 +7,10 @@ package_name = "PyEventsEmitter"
 
 path = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(path, "PyEventsEmitter/README.md"), encoding="utf-8") as this:
+with codecs.open(os.path.join("README.md"), encoding="utf-8") as this:
     long_description = "\n" + this.read()
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
 DESCRIPTION = "Powerful and flexible EventEmitter implementation with advanced features."
 
 exclude = ["PyEventsEmitter/tests", "PyEventsEmitter/*.tests", "PyEventsEmitter/*.txt", "PyEventsEmitter/others", "PyEventsEmitter/backups", "PyEventsEmitter/.vscode", "PyEventsEmitter/__pycache__","PyEventsEmitter/.gitignore", "PyEventsEmitter/docs"]

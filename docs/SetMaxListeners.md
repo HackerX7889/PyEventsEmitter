@@ -3,7 +3,7 @@
 ```py
 from PyEventsEmitter import EventEmitter
 
-emitter = EventEmitter()
+emitter = EventEmitter({ "captureRejections": True })
 
 emitter.set_max_listeners(10)
 ```
