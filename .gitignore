@@ -6,3 +6,4 @@ directory_structure.kt
 others/
 dist/
 PyEventsEmitter.egg-info
+build/
