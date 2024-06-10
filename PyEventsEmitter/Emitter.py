@@ -68,7 +68,7 @@ class EventEmitter:
 
         Example:
         ```py
-            emitter = EventEmitter()
+            emitter = EventEmitter({ "captureRejections": True })
             
             emitter.emit('my_event', 'Hello, world!')
             
@@ -96,7 +96,7 @@ class EventEmitter:
 
         Example:
         ```py
-            emitter = EventEmitter()
+            emitter = EventEmitter({ "captureRejections": True })
             
             def my_listener(arg: str):
                 print(arg)
@@ -194,7 +194,7 @@ class EventEmitter:
 
         Example:
         ```py
-            emitter = EventEmitter()
+            emitter = EventEmitter({ "captureRejections": True })
             emitter.set_max_listeners(10)  # Set the maximum number of listeners to 10
             current_max_listeners = emitter.set_max_listeners(20)  # Set the maximum number of listeners to 20 and get the current maximum number of listeners
         ```
@@ -226,7 +226,7 @@ class EventEmitter:
 
         Example:
         ```py
-            emitter = EventEmitter()
+            emitter = EventEmitter({ "captureRejections": True })
             
             def listener():
                 print("Listener called")
@@ -258,7 +258,7 @@ class EventEmitter:
 
         Example:
         ```py
-            emitter = EventEmitter()
+            emitter = EventEmitter({ "captureRejections": True })
             
             def listener():
                 print("Listener called")
